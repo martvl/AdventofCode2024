@@ -57,3 +57,11 @@ def read_day_06(example = False):
         for line in infile.readlines():
             data.append(line.strip("\n"))
     return data
+
+def read_day_08(example = False):
+    file = f"input/input_08{'_example' if example else ''}.txt"
+    data = []
+    with open(file) as infile:
+        for line in infile.readlines():
+            data.append(line.strip("\n"))
+    return data
